@@ -1,0 +1,17 @@
+{
+	"name": "small-draug-factory",
+	"description": "small-draug-factory",
+	"type": "UnitFactory",
+	"unitType": "draug",
+	"size": 1,
+	"produceTime": 10,
+	"maxSpawn": 10,
+	"consumes": {
+		"power": 0.5
+	}
+	"category": "units",
+	"research": "draug-factory",
+	"requirements": [
+		{ "item": "silicon", "amount": 10 }
+	]
+}

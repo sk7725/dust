@@ -1,0 +1,15 @@
+{
+	"type": "BufferedItemBridge",
+	"name": "silicon bridge conveyor",
+	"description": "silicon bridge conveyor",
+	"health": 100,
+	"range": 100,
+	"transportTime": 5,
+	"speed": 100,
+	"bufferCapacity": 100,
+	"requirements": [
+		{ "item": "silicon", "amount": 1 }
+	],
+	"category": "distribution",
+	"research": "phase-conveyor"
+}

@@ -1,0 +1,19 @@
+{
+	"type": "RepairPoint",
+	"name": "repair-raser",
+	"description": "repair-raser",
+	"size": 1,
+	"health": 100,
+	"repairRadius": 800,
+	"repairSpeed": 10,
+	"outlineIcon": false,
+	"hasShadow": false,
+	"consumes": {
+		"power": 10,
+	},
+	"requirements": [
+		{ "item" : "silicon", "amount": 10 }
+	],
+	"category": "effect",
+	"research": "repair-point"
+}

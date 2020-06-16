@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "surge-alloy-compressor",
+	"description": "surge-alloy-compressor",
+	"size": 2,
+	"health": 1000,
+	"itemCapacity": 40,
+	"outputItem": {"item": "surge-alloy", "amount": 1},
+	"craftEffect": "producesmoke",
+	"updateEffect": "smeltsmoke",
+	"updateEffectChance": 0.05,
+	"craftTime": "120",
+	"consumes": {
+		"power": 10,
+		"items": {
+			"items": [
+				{ "item": "surge-alloy-dust", "amount": 20 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}

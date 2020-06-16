@@ -1,0 +1,30 @@
+{
+	"type": "NuclearReactor",
+	"name": "tnt",
+	"description": "tnt",
+	"health": 1,
+	"size": 1,
+	"itemDuration": 1,
+	"heating": 1,
+	"smokeThreshold": 1,
+	"explosionRadius": 200,
+	"explosionDamage": 100000,
+	"flashThreshold": 1,
+	"coolantPower": 0,
+	"powerProduction": 0,
+	"baseExplosiveness": 5,
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 0 }
+			]
+		},
+		"liquid": { "liquid": "water", "amount": 0 },
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 1 }
+	],
+	"category": "effect",
+	"research": "duo"
+}

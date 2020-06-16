@@ -1,0 +1,24 @@
+{
+	"type": "OverdriveProjector",
+	"name": "50x overdrive",
+	"description": "50x overdrive",
+	"size": 8,
+	"range": 800,
+	"phaseRangeBoost": 800,
+	"speedBoost": 50,
+	"speedBoostPhase": 50,
+	"useTime": 500,
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [ { "amount": 1, "item": "phase-fabric" } ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 100 },
+	],
+	"category": "effect",
+	"research": "10x"
+}

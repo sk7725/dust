@@ -1,0 +1,13 @@
+{
+	"type": "Junction",
+	"name": "phase junction",
+	"description": "phase junction",
+	"health": 100,
+	"speed": 1,
+	"capacity": 20,
+	"requirements": [
+		{ "item": "silicon", "amount": 1 }
+	],
+	"category": "distribution",
+	"research": "phase-conveyor"
+}

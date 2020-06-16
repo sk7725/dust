@@ -1,0 +1,17 @@
+{
+	"name": "small-spirit-factory",
+	"description": "small-spirit-factory",
+	"type": "UnitFactory",
+	"unitType": "spirit",
+	"size": 1,
+	"produceTime": 10,
+	"maxSpawn": 10,
+	"consumes": {
+		"power": 0.5
+	}
+	"category": "units",
+	"research": "spirit-factory",
+	"requirements": [
+		{ "item": "silicon", "amount": 10 }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "small-phantom-factory",
+	"description": "small-phantom-factory",
+	"type": "UnitFactory",
+	"unitType": "phantom",
+	"size": 1,
+	"produceTime": 10,
+	"maxSpawn": 10,
+	"consumes": {
+		"power": 0.5
+	}
+	"category": "units",
+	"research": "phantom-factory",
+	"requirements": [
+		{ "item": "silicon", "amount": 10 }
+	]
+}

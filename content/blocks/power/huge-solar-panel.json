@@ -1,0 +1,12 @@
+{
+	"name": "huge solar panel",
+	"description": "huge solar panel",
+	"size": 8,
+	"health": 10000,
+    "powerProduction": 166.66666,
+	"requirements": [
+		{ "item": "silicon", "amount": 1 }
+	],
+	"category": "power",
+	"research": "lancer"
+}

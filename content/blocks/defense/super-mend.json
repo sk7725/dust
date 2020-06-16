@@ -1,0 +1,24 @@
+{
+	"type": "MendProjector",
+	"name": "mend-projector-large",
+	"description": "mend-projector-large",
+	"size": 8,
+	"range": 800,
+	"phaseRangeBoost": 800,
+	"phaseBoost": 100,
+	"reload": 100,
+	"healPercent": 100,
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [ { "amount": 1, "item": "phase-fabric" } ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 1000 }
+	],
+	"category": "effect",
+	"research": "overdrive-projector"
+}
