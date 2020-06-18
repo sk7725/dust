@@ -106,7 +106,7 @@ function addItemForm(pitem, type){
   }
 }
 
-function addItemForms(i){
+function addItemForms(it){
   if(!it.name.includes("-dust")){
     addItemForm(it, "material");
   }
@@ -114,7 +114,7 @@ function addItemForms(i){
 
 function addItemRoot(){
   Vars.content.items().each(cons(it=>{
-    addItemForms(i);
+    addItemForms(it);
   }));
 }
 
